@@ -32,7 +32,7 @@ jobs:
         node-version: [12.x, 14.x]
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/download-arfifact@v2
+    - uses: actions/download-artifact@v2
       with:
         name: webpack artifact
         path: public
